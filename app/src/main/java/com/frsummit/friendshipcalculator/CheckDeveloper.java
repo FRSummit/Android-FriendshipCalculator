@@ -20,21 +20,21 @@ public class CheckDeveloper {
 //            else if(parts_1[i] == "RIMI" && parts_2[0] == "") return false;
 //        }
 
-        if(name_1.equals("FAYAZUR RAHMAN SUMMIT") && name_2.equals("HAFSINA SHEHERIN RIMI)")) {
+        if(name_1.equals("FRS") && name_2.equals("HSR)")) {
             return false;
-        } else if(name_1.equals("SUMMIT") && name_2.equals("HAFSINA")) {
+        } else if(name_1.equals("S") && name_2.equals("H")) {
             return false;
-        } else if(name_1.equals("SUMMIT") && name_2.equals("SHEHERIN")) {
+        } else if(name_1.equals("S") && name_2.equals("S")) {
             return false;
-        } else if(name_1.equals("SUMMIT") && name_2.equals("RIMI")) {
+        } else if(name_1.equals("S") && name_2.equals("R")) {
             return false;
-        } else if(name_1.equals("HAFSINA SHEHERIN RIMI") && name_2.equals("FAYAZUR RAHMAN SUMMIT")) {
+        } else if(name_1.equals("HSR") && name_2.equals("FRS")) {
             return false;
-        } else if(name_1.equals("HAFSINA") && name_2.equals("SUMMIT")) {
+        } else if(name_1.equals("H") && name_2.equals("S")) {
             return false;
-        } else if(name_1.equals("SHEHERIN") && name_2.equals("SUMMIT")) {
+        } else if(name_1.equals("S") && name_2.equals("S")) {
             return false;
-        } else if(name_1.equals("RIMI") && name_2.equals("SUMMIT")) {
+        } else if(name_1.equals("R") && name_2.equals("S")) {
             return false;
         }
         else return true;
